@@ -1,0 +1,112 @@
+body{
+    font-family: 'Voltaire', sans-serif;
+    background-color:#f2f2f2;
+}
+
+#pagelogo{
+    height: 50px;
+    width: 50px;
+}
+
+#main-container{
+    background-color: white;
+    margin:auto;
+    max-width: 750px;
+    box-shadow: 0px 1px 5px #000;
+}
+
+.searchbox{
+    margin-left:20px;
+    margin-top:20px;
+}
+
+#searchbtn{
+    border-radius:0px;
+}
+
+#searchbar{
+    border-radius:0px;
+    padding: 0px 25px;
+    min-width: 200px;
+}
+
+#footers{
+    margin-left:10px;
+}
+
+.data{
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+#heading{
+    color:darkslateblue;
+}
+
+img{
+    height:50px;
+    width:50px;
+}
+
+#usersfont{
+    font-size: 18px;
+    cursor: pointer;
+    color:#4d4dff;
+}
+
+#usersfont:hover{
+    text-decoration: underline;
+    color:#3333cc;
+}
+
+.issuesclass{
+    font-size:14px;
+    background-color: #4dc91a;
+    padding:2px 8px;
+    color: #fff;
+}
+
+.ilabel{
+    font-size:14px;
+    padding:2px 8px;
+    color:#000;
+    font-weight: bold;
+    float: right;
+}
+
+.userrepo{
+    font-size:13px;
+    padding:2px 8px;
+    color:#fff;
+    background-color: #3366ff;
+}
+
+#tabledoc{
+    cursor: pointer;
+    color:#4d4dff;
+}
+
+#tabledoc:hover{
+    text-decoration: underline;
+    color:#3333cc;
+}
+
+.finalrepo{
+    font-size: 18px;
+}
+
+/*media query*/
+@media only screen and (max-width:700px)
+{
+
+  .searchbox{
+    margin:auto;
+    margin-top:20px;
+  }
+
+  .data{
+    margin-top: 20px;
+    text-align:center;
+  }
+
+}

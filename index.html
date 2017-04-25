@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" href="images/favicon.png"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/mystyle.css" rel="stylesheet">
+        <title>Github Search</title>
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Voltaire');
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 class="text-center"id="heading">Search <img id="pagelogo" src="images/logo.png"> github</h1>
+        </div>
+        <div class="container" id="main-container">
+            <div class="row">
+            <div class="col-sm-8 col-xs-8 input-group input-group-lg searchbox">
+                <input type="search" id="searchbar" placeholder="Search github ..." class="form-control" spellcheck="false">
+                <div class="input-group-btn">
+                    <button id="searchbtn" class="btn btn-success" onclick="search()"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </div>
+            </div>
+            </div>
+            <div class="data">
+                <a href="#"><h4 onclick="displayUsers()">Users = <span id="usercount">0</span></h4></a>
+                <a href="#"><h4 onclick="displayRepositories()">Repositories = <span id="repocount">0</span></h4></a>
+            </div>
+
+            <div class="container-fluid ">
+              <table class="table table-hover" id="table-data">
+
+              </table>
+            </div>
+
+        </div><!--end main container-->
+        <h4 class="text-center" id="footers"><small>using bootstrap</small> by Zafar</h4>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main1.js"></script>
+
+    </body>
+</html>
